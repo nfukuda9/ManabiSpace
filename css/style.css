@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* GENERAL STYLING
+/* 共通部分
 ------------------------------- */
 html {
     font-size: 100%;
@@ -27,7 +27,6 @@ img {
 .big-bg {
     background-size: cover;
     background-position: center top;
-    height: 680px;
     background-repeat: no-repeat;
 }
 
@@ -94,6 +93,7 @@ iframe {
 ------------------------------- */
 #home {
     background-image: url(../images/main-bg.jpg);
+    min-height: 100vh;
 }
 #home .page-title {
     text-transform: none;
@@ -191,6 +191,7 @@ aside p {
 ------------------------------- */
 #menu {
     background-image: url(../images/menu-bg.jpg);
+    min-height: 100vh;
 }
 .menu-content {
     max-width: 560px;
@@ -215,6 +216,7 @@ aside p {
 ------------------------------- */
 #contact {
     background-image: url(../images/contact-bg.jpg);
+    min-height: 100vh;
 }
 
 /* FORM */
