@@ -50,14 +50,14 @@ img {
 .btn {
     display: inline-block;
     font-size: 1.5rem;
-    background: #0bd;
+    background-color: #0bd;
     color: #fff;
     border-radius: 8px;
     padding: .75rem 1.5rem;
     transition: .5s;
 }
 .btn:hover {
-    background: #0090aa;
+    background-color: #0090aa;
 }
 
 /* iframe */
@@ -260,7 +260,7 @@ iframe {
     border-bottom: 1px solid #c9c2bc;
 }
 .info th {
-    text-align-last: left;
+    text-align: left;
     font-weight: normal;
     padding: 1rem;
 }
