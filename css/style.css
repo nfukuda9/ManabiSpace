@@ -146,6 +146,9 @@ iframe {
     font-size: .875rem;
     padding: .5rem .75rem;
 }
+.post-cat a:hover {
+    background-color: #c9c2bc;
+}
 .post-date {
     font-size: .875rem;
 }
@@ -171,6 +174,9 @@ iframe {
     color: #432;
     display: block;
     padding: 1rem;
+}
+.side-menu a:hover {
+    color: #0bd;
 }
 
 /* MENU
@@ -324,18 +330,12 @@ iframe {
     .post {
         width: 70%;
     }
-    .post-cat a:hover {
-        background-color: #c9c2bc;
-    }
     .sidebar {
         width: 22%;
     }
     .sidebar .heading-medium {
         line-height: 1;
         margin-bottom: 1rem;
-    }
-    .side-menu a:hover {
-        color: #0bd;
     }
 
     /* MENU */
