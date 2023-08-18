@@ -347,7 +347,7 @@ iframe {
         grid-template-columns: repeat(3, 1fr);
     }
     .item img {
-        margin-bottom: 1rem;
+        margin-bottom: .5rem;
     }
     .item p {
         font-size: 1rem;
