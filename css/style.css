@@ -109,7 +109,7 @@ iframe {
 .about {
     max-width: 736px;
     padding: 0 1.5rem;
-    margin: 3rem auto 4rem;
+    margin: 3rem auto 0;
 }
 .about p {
     margin-bottom: 3rem;
@@ -188,7 +188,6 @@ iframe {
     display: grid;
     gap: 2rem 1.5rem;
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 4rem;
     text-align: center;
 }
 .item img {
@@ -230,9 +229,6 @@ iframe {
 }
 
 /* SNS */
-.sns {
-    margin-bottom: 5rem;
-}
 .sns-item {
     margin-bottom: 2rem;
 }
@@ -252,7 +248,7 @@ iframe {
     background-image: url(../images/footer-s.webp);
     background-size: cover;
     background-position: center;
-    padding-top: 6rem;
+    padding-top: 12rem;
 }
 .info {
     width: 100%;
