@@ -99,7 +99,8 @@ iframe {
 .cover {
     background-size: cover;
     background-position: center bottom;
-    height: 500px;
+/*     height: 500px; */
+    height: 350px;
 }
 .sub-cover {
     background-size: cover;
@@ -322,6 +323,7 @@ iframe {
     .cover-home {
 /*        background-image: url(../images/cover-home-l.webp); */
         background-image: url(../images/hougan_2880_400.png);
+        height: 500px; /* 追加 */
     }
     .about {
         margin: 4rem auto 0;
