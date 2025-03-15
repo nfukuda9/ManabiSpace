@@ -6,7 +6,8 @@ html {
     font-size: 100%;
 }
 body{
-    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
+/*    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif; */
+    font-family: "Kaisei Decol", serif;
     line-height: 1.7;
     color: #432;
 }
@@ -29,10 +30,12 @@ img {
 
 /* 見出し */
 .font-english {
-    font-family: 'Philosopher', sans-serif;
+/*    font-family: 'Philosopher', sans-serif; */
+    font-family: "Kaisei Decol", serif;
     font-weight: normal;
 }
 .page-title,
+.page-sub-title,
 .heading-large,
 .heading-medium {
     font-size: 3rem;
@@ -40,6 +43,10 @@ img {
 }
 .page-title {
     margin-top: 2rem;
+    line-height: 1.4;
+}
+.page-sub-title {
+    margin-top: 4rem;
     line-height: 1.4;
 }
 .heading-large {
@@ -92,7 +99,7 @@ iframe {
 .cover {
     background-size: cover;
     background-position: center bottom;
-    height: 800px;
+    height: 500px;
 }
 .sub-cover {
     background-size: cover;
@@ -104,7 +111,7 @@ iframe {
 /* HOME
 ------------------------------- */
 .cover-home {
-    background-image: url(../images/cover-home-s.webp);
+    background-image: url(../images/hougan_2880_400.png);
 }
 .about {
     max-width: 736px;
@@ -245,14 +252,14 @@ iframe {
 /* フッター
 ------------------------------- */
 .page-footer {
-    background-image: url(../images/footer-s.webp);
+    background-image: url(../images/hougan_2880_400.png);
     background-size: cover;
     background-position: center;
     padding-top: 12rem;
 }
 .info {
     width: 100%;
-    max-width: 544px;
+    max-width: 700px;
     margin: auto;
     padding: 0 1.5rem;
     border-spacing: 0;
@@ -284,6 +291,10 @@ iframe {
     .page-title {
         font-size: 5rem;
     }
+    /* 追加 */
+    .page-sub-title {
+        font-size: 3rem;
+    }
     .heading-large {
         font-size: 4rem;
     }
@@ -309,10 +320,12 @@ iframe {
 
     /* HOME */
     .cover-home {
-        background-image: url(../images/cover-home-l.webp);
+/*        background-image: url(../images/cover-home-l.webp); */
+        background-image: url(../images/hougan_2880_400.png);
     }
     .about {
         margin: 4rem auto 0;
+        margin-bottom: 8rem;  /* この行を追加 */
     }
 
     /* NEWS */
@@ -381,8 +394,10 @@ iframe {
 
     /* フッター */
     .page-footer {
-        background-image: url(../images/footer-l.webp);
-        padding-top: 12rem;
+/*        background-image: url(../images/footer-l.webp); */
+        background-image: url(../images/hougan_2880_400.png);
+        background-position: center bottom;  /* centerからcenter bottomに変更 */
+        padding-top: 4rem;
     }
     .info th {
         padding-left: 2.5rem;
