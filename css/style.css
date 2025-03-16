@@ -370,7 +370,7 @@ iframe {
 }
 
 .question-content {
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
     margin-bottom: 3rem;
 }
@@ -407,7 +407,7 @@ iframe {
 .btn-bookmark {
     background-color: #0bd;
     width: 50%;
-    max-width: 250px;
+    max-width: 280px;
     text-align: center;
 }
 
@@ -449,7 +449,7 @@ iframe {
 
 .btn-navigation {
     background-color: #ede4e1;
-    width: 45%;
+    width: 30%;
     max-width: 200px;
     text-align: center;
     color: #432;
