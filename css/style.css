@@ -383,14 +383,16 @@ iframe {
 }
 
 .btn-understood {
-    background-color: #6666ff;
+/*    background-color: #6666ff; */
+    background-color: #83be8e;
     width: 80%;
     max-width: 400px;
     text-align: center;
 }
 
 .btn-understood:hover {
-    background-color: #5555ee;
+/*    background-color: #5555ee; */
+    background-color: #25874b;
 }
 
 .btn-review {
@@ -403,7 +405,7 @@ iframe {
 .btn-review:hover {
     background-color: #c972a3;
 }
-
+/*
 .btn-bookmark {
     background-color: #0bd;
     width: 55%;
@@ -414,7 +416,7 @@ iframe {
 .btn-bookmark:hover {
     background-color: #0090aa;
 }
-
+*/
 /* 解答ページ
 ------------------------------- */
 .answer-container {
@@ -458,6 +460,82 @@ iframe {
 .btn-navigation:hover {
     background-color: #e5d8d4;
 }
+
+
+/* 追加 */
+.answer-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-correct {
+    background-color: #6666ff;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .btn-correct:hover {
+    background-color: #5555ee;
+  }
+  
+  .btn-incorrect {
+    background-color: #da81b2;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .btn-incorrect:hover {
+    background-color: #c972a3;
+  }
+  
+  .btn-bookmark {
+    background-color: #0bd;
+    width: 55%;
+    max-width: 280px;
+    text-align: center;
+  }
+  
+  .btn-bookmark:hover {
+    background-color: #0090aa;
+  }
+
+
+/* ボタンの選択、解除の制御追加 */
+/* 選択状態のスタイル */
+.btn-correct.selected {
+/*   background-color: #3333cc; */
+    background-color: #050540;
+    box-shadow: 0 0 8px rgba(102, 102, 255, 0.8);
+    transform: scale(0.98);
+  }
+  
+  .btn-incorrect.selected {
+/*    background-color: #b5548e; */
+    background-color: #560b38;
+    box-shadow: 0 0 8px rgba(218, 129, 178, 0.8);
+    transform: scale(0.98);
+  }
+  
+  .btn-bookmark.selected {
+/*    background-color: #0090aa; */
+    background-color: #0a4650;
+    box-shadow: 0 0 8px rgba(11, 221, 221, 0.8);
+    transform: scale(0.98);
+  }
+  
+  /* ボタンのトランジション効果 */
+  .btn-correct, .btn-incorrect, .btn-bookmark {
+    transition: all 0.3s ease;
+  }
+  
+
+
+
 
 /* デスクトップ版
 ------------------------------- */
